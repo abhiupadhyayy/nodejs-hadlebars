@@ -1,13 +1,9 @@
-// genrating port number here
-function genratePortNo(...a) {
-    return a;
-}
 
 // http module
 const http = require("http");
 
 // port number
-let PORT = process.env.PORT || genratePortNo()
+let PORT = process.env.PORT || 8080
 
 
 // server 
@@ -32,7 +28,8 @@ module.exports = http.createServer((req, res) => {
     console.log(`Server is running on port number ${PORT}`)
 });
 
-module.exports = genratePortNo
+
+
 
 
 
