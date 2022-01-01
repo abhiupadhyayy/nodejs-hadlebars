@@ -1,0 +1,25 @@
+{
+  "name": "pen",
+  "version": "1.0.0",
+  "description": "just starting again",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abhiupadhyayy/nodejs-hadlebars.git"
+  },
+  "keywords": [
+    "nodejs"
+  ],
+  "author": "Abhi Upadhyay",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abhiupadhyayy/nodejs-hadlebars/issues"
+  },
+  "homepage": "https://github.com/abhiupadhyayy/nodejs-hadlebars#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
